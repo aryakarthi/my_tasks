@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+	
+section{
+    height: 100vh;
+    width: 100%;
+}
+
+.sec1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sec2{
+	display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+    padding-bottom: 30px;
+}
+
+.navbar{
+	width: 100%;
+    height: 50px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5px 50px;
+    z-index: 100;
+    background-color:whitesmoke;
+}
+
+.nav-mid .nav-links{
+	display: flex;
+	gap: 50px;
+}
+
+.nav-links li{
+	list-style: none;
+}
+
+.nav-links li a{
+	text-decoration: none;
+    color:crimson;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 3px;
+}
+
+.card-container{
+    display: flex;
+    width: 95%;
+    height: 450px;
+    box-shadow: 0 0 5px #ccc;
+}
+
+.img-div{
+    width: 45%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.img-div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out;
+}
+
+.img-div img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.content-div{
+    width: 55%;
+    height: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #214463;
+}
+
+.intro h1{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.intro p{
+    font-size: 13px;
+}
+
+.para h3{
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 600;
+}
+
+.para p{
+    font-size: 12px;
+}
+
+.content{
+    display: flex;
+    column-gap: 20px;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    border: 3px solid #9ECBF3;
+    border-radius: 50%;
+}
+
+.icon i{
+    font-size: 35px;
+    color: #0378D1;
+    padding:5px;
+}
+
+.gallery-content{
+    width: 70%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+
+.gallery-content h1{
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.lines{
+    margin-bottom: 5px;
+}
+
+.gallery-content span{
+    display: inline-block;
+    width: 40px;
+    height: 2px;
+}
+
+.gallery-content p{
+    font-size: 12px;
+    text-align: center;
+}
+
+.gray{
+    background-color: #ccc;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.img-container{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.img-card{
+    width: 370px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.img-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out;
+}
+
+.img-card img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
