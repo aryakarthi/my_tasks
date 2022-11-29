@@ -1,0 +1,208 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+
+/* #########   Grid Style ########  */
+
+.container{
+    width: 1150px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.row>*{
+    width: 100%;
+    padding: 0 15px;
+}
+
+.col-lg-1{
+	width:8.33%;
+}
+.col-lg-2{
+	width:16.66%;
+}
+.col-lg-3{
+	width:25%;
+}
+.col-lg-4{
+	width:33.33%;
+}
+.col-lg-5{
+	width:41.66%;
+}
+.col-lg-6{
+	width:50%;
+}
+.col-lg-7{
+	width:58.33%;
+}
+.col-lg-8{
+	width:66.66%;
+}
+.col-lg-9{
+	width:75%;
+}
+.col-lg-10{
+	width:83.33%;
+}
+.col-lg-11{
+	width:91.66%;
+}
+.col-lg-12{
+	width:100%;
+}
+
+.justify-content-start{
+    justify-content: flex-start !important;
+}
+.justify-content-end{
+    justify-content: flex-end !important;
+}
+.justify-content-between{
+    justify-content: space-between !important;
+}
+.justify-content-around{
+    justify-content: space-around !important;
+}
+.justify-content-evenly{
+    justify-content: space-evenly !important;
+}
+
+
+.align-items-start{
+    align-items: flex-start !important;
+}
+.align-items-end{
+    align-items: flex-end !important;
+}
+.align-items-center{
+    align-items: center !important;
+}
+.align-items-baseline{
+    align-items: baseline !important;
+}
+
+/* ######## Header Style ########## */
+
+.header-top{
+    background-color: #fff;
+    border-bottom: solid 1px #ff5821;
+}
+
+.header-info{
+    background-color: #39312f;
+    padding: 5px 0;
+}
+
+.contact-info{
+    height: 50px;
+    background-color: #ff5821;
+}
+
+.info-btn{
+    background-color: #ff5821;
+    height: 100%;
+}
+
+.nav-section{
+    padding: 5px 0;
+}
+
+h1.logo{
+    background-color: #39312f;
+    height: 50px;
+}
+
+.navbar{
+    background-color: #39312f;
+    height: 50px;
+}
+
+/* ######   Banner Style    ########### */
+
+.banner-section{
+    background-color: #ff5821;
+    padding: 140px 0;
+}
+
+.banner-content{
+    background-color: #39312f;
+    height: 300px;
+    width: 60%;
+}
+
+/* ########   Big Box Style   ######### */
+
+.banner-boxes{
+    /* background-color: #39312f; */
+    padding: 20px 0;
+    position: relative;
+    top: -80px;
+}
+
+.big-box{
+    background-color: #39312f;
+    height: 350px;
+}
+
+.small-box{
+    background-color: #39312f;
+    height: 250px;
+}
+
+/* ########  About Style  ########### */
+
+.about-section{
+    background-color: #ff5821;
+    padding: 80px 0;
+}
+
+.about-img{
+    background-color: #39312f;
+    height: 400px;
+}
+
+.about-content{
+    background-color: #39312f;
+    height: 400px;
+}
+
+/* ###########   Client Logo Style   ########## */
+
+.client-logo-sec{
+    background-color: #39312f;
+    padding: 80px 0;
+}
+
+.client-logo{
+    background-color: #ff5821;
+    height: 60px;
+}
+
+
+/* ########   Service Style    ########## */
+
+.service-section{
+    background-color: #ff5821;
+    padding: 80px 0;
+}
+
+.section-title{
+    background-color: #39312f;
+    height: 60px;
+}
+
+.service-items{
+    background-color: #39312f;
+    height: 250px;
+    margin-top: 60px;
+
+}
