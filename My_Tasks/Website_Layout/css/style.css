@@ -3,9 +3,7 @@
 
 /* #########   Grid Style ########  */
 
-body{
-	background-color: #e63946;
-}
+
 
 .container{
     width: 1250px;
@@ -152,12 +150,12 @@ h1.logo{
 }
 
 .big-box{
-    background-color: #a8dadc;
+    background-color: #e63946;
     height: 350px;
 }
 
 .small-box{
-    background-color: #a8dadc;
+    background-color: #e63946;
     height: 250px;
 }
 
