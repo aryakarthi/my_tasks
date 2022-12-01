@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+
+/* #########   Grid Style ########  */
+
+
+
+.container{
+    width: 1250px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.row>*{
+    width: 100%;
+    padding: 0 15px;
+}
+
+.col-lg-1{
+	width:8.33%;
+}
+.col-lg-2{
+	width:16.66%;
+}
+.col-lg-3{
+	width:25%;
+}
+.col-lg-4{
+	width:33.33%;
+}
+.col-lg-5{
+	width:41.66%;
+}
+.col-lg-6{
+	width:50%;
+}
+.col-lg-7{
+	width:58.33%;
+}
+.col-lg-8{
+	width:66.66%;
+}
+.col-lg-9{
+	width:75%;
+}
+.col-lg-10{
+	width:83.33%;
+}
+.col-lg-11{
+	width:91.66%;
+}
+.col-lg-12{
+	width:100%;
+}
+
+.justify-content-start{
+    justify-content: flex-start !important;
+}
+.justify-content-end{
+    justify-content: flex-end !important;
+}
+.justify-content-between{
+    justify-content: space-between !important;
+}
+.justify-content-around{
+    justify-content: space-around !important;
+}
+.justify-content-evenly{
+    justify-content: space-evenly !important;
+}
+
+.align-items-start{
+    align-items: flex-start !important;
+}
+.align-items-end{
+    align-items: flex-end !important;
+}
+.align-items-center{
+    align-items: center !important;
+}
+.align-items-baseline{
+    align-items: baseline !important;
+}
+
+.text-align-center{
+	text-align: center !important;
+}
+.text-align-left{
+	text-align: left !important;
+}
+.text-align-right{
+	text-align: right !important;
+}
+.text-align-justify{
+	text-align: justify !important;
+}
+
+
+/* ########## Common Style  ########### */
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: dodgerblue;
+    padding: 12px 20px;
+    font-size: 14px;
+}
+
+/* ######## Header Style ########## */
+
+/* .header-top{
+	background-color: #1d3557;
+} */
+
+.header-info{
+    background-color: #000;
+}
+
+.contact-info span{
+	color: white;
+    font-size: 14px;
+    margin-right: 10px;
+    display: inline-block;
+    padding: 10px 0;
+} 
+
+.contact-info span > a{
+    text-decoration: none;
+    color: white;
+}
+
+.contact-info span > a:hover{
+    color: dodgerblue;    
+}
+
+.contact-info span i{
+	color:dodgerblue;
+    margin-right: 5px;
+} 
+
+.info-btn{
+	height: 100%;
+}
+
+.nav-section{
+    background-color: white;
+    padding: 15px 0;
+}
+
+h1.logo > a{
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 600;
+
+}
+
+.nav-links{
+	display: flex;
+	justify-content: flex-end;
+	gap: 0 30px;
+}
+
+.nav-item a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    padding: 8px 10px;
+
+}
+
+.nav-item a:hover{
+    color: dodgerblue;
+}
+
+.nav-item a.active{
+    color: dodgerblue;
+}
+
+/* ######   Banner Style    ########### */
+
+.banner-section{
+    background-color: #1d3557;
+    padding: 140px 0;
+}
+
+.banner-content{
+    background-color: #a8dadc;
+    height: 300px;
+    width: 60%;
+}
+
+/* ########   Big Box Style   ######### */
+
+.banner-boxes{
+    padding: 20px 0;
+    position: relative;
+    top: -100px;
+}
+
+.big-box{
+    background-color: #e63946;
+    height: 350px;
+}
+
+.small-box{
+    background-color: #e63946;
+    height: 250px;
+}
+
+/* ########  About Style  ########### */
+
+.about-section{
+    background-color: #1d3557;
+    padding: 80px 0;
+}
+
+.about-img{
+    background-color: #a8dadc;
+    height: 500px;
+}
+
+.about-content{
+    background-color: #a8dadc;
+    height: 500px;
+}
+
+/* ###########   Client Logo Style   ########## */
+
+.client-logo-sec{
+    background-color: #a8dadc;
+    padding: 80px 0;
+}
+
+.client-logo{
+    background-color: #1d3557;
+    height: 60px;
+}
+
+
+/* ########   Service Style    ########## */
+
+.service-section{
+    background-color: #1d3557;
+    padding: 80px 0;
+}
+
+.section-title{
+    background-color: #a8dadc;
+    height: 60px;
+}
+
+.service-items{
+    background-color: #a8dadc;
+    height: 250px;
+    margin-top: 60px;
+
+}
+
+/* ########   Service Pic Style    ########## */
+
+.service-pic-section{
+    background-color: #a8dadc;
+    padding: 80px 0;
+}
+
+.section-pic-title{
+    background-color: #1d3557;
+    height: 60px;
+}
+
+.service-pic-items{
+    background-color: #1d3557;
+    height: 250px;
+    margin-top: 60px;
+
+}
+
+/* ########   Client Review Style    ########## */
+
+.client-section{
+	background-color: #1d3557;
+  height: 500px;
+}
+
+
+/* ########   Portfolio Style    ########## */
+
+.portfolio-section{
+    background-color: #a8dadc;
+    padding: 80px 0;
+}
+
+.portfolio-title{
+    background-color: #1d3557;
+    height: 150px;
+}
+
+.portfolio-items{
+    background-color: #1d3557;
+    height: 250px;
+    margin-top: 60px;
+
+}
+
+/* ########   Team Style    ########## */
+
+.team-section{
+    background-color: #1d3557;
+    padding: 80px 0;
+}
+
+.team-title{
+    background-color: #a8dadc;
+    height: 150px;
+}
+
+.team-items{
+    background-color: #a8dadc;
+    height: 300px;
+    margin-top: 60px;
+
+}
+
+/* ########   Pricing Style    ########## */
+
+.pricing-section{
+    background-color: #a8dadc;
+    padding: 80px 0;
+}
+
+.pricing-title{
+    background-color: #1d3557;
+    height: 150px;
+}
+
+.pricing-items{
+    background-color: #1d3557;
+    height: 300px;
+    margin-top: 60px;
+
+}
+
+/* ########   FAQ Style    ########## */
+
+.faq-section{
+    background-color: #1d3557;
+    padding: 80px 0;
+}
+
+.faq-title{
+    background-color: #a8dadc;
+    height: 150px;
+}
+
+.faq-content{
+    background-color: #a8dadc;
+    height: 400px;
+		margin-top: 60px;
+}
+
+/* ########   Contact Style    ########## */
+
+.contact-section{
+    background-color: #a8dadc;
+    padding: 80px 0;
+}
+
+.contact-title{
+    background-color: #1d3557;
+    height: 100px;
+}
+
+.contact-items{
+    background-color: #1d3557;
+    height: 150px;
+		margin-top: 60px;
+}
+
+.form-items{
+    background-color: #1d3557;
+    height: 300px;
+		margin-top: 60px;
+}
+
+/* ########   Footer Style    ########## */
+
+.footer-section{
+    background-color: #1d3557;
+    padding: 80px 0;
+}
+
+.footer-items{
+    background-color: #a8dadc;
+    height: 200px;
+    margin-top: 60px;
+}
+
+/* ########   Copyright Style    ########## */
+
+.copy-info{
+    background-color: #a8dadc;
+    padding: 15px 0;
+}
+
+.copyright-info{
+    height: 80px;
+    background-color: #1d3557;
+}
+
+.social-logo{
+    background-color: #1d3557;
+    height: 100%;
+}
+
